@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/compare-creatures",
+      "handler": "compare-creatures.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/compare-creatures",
+      "handler": "compare-creatures.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/compare-creatures",
+      "handler": "compare-creatures.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

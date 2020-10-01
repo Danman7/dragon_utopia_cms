@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_short_texts",
+  "info": {
+    "name": "Short Text",
+    "icon": "feather-alt"
+  },
+  "options": {},
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

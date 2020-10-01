@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_sections",
+  "info": {
+    "name": "Section",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
