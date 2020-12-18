@@ -2,11 +2,13 @@
   "kind": "singleType",
   "collectionName": "compare_creatures",
   "info": {
-    "name": "Compare Creatures"
+    "name": "Compare Creatures",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "title": {
@@ -18,6 +20,15 @@
     },
     "slug": {
       "type": "string"
+    },
+    "headerImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
