@@ -8,5 +8,5 @@ This repository is only required by developers to add/remove/update collection a
 
 1. `git clone https://github.com/Danman7/dragon_utopia_cms.git`
 2. `npm i` or `yarn`
-3. `npm run build` or `yarn run build`
+3. `npm run build` or `yarn run build
 4. `npm start` or `yarn start`
