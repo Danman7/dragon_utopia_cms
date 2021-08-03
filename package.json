@@ -1,7 +1,7 @@
 {
   "name": "dragon-utopia-cms",
   "private": false,
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A Strapi CMS admin panel for the dragon utopia HoMM3 website",
   "scripts": {
     "develop": "strapi develop",
@@ -33,8 +33,7 @@
     "uuid": "426e14f8-2955-460c-b4a4-cefc70a3c731"
   },
   "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
+    "node": "14.17.0"
   },
   "license": "MIT"
 }
